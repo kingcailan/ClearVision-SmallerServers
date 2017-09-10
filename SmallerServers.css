@@ -1,0 +1,59 @@
+.guilds-wrapper .guild-separator {
+	margin-top:5px;
+    margin-bottom:5px;
+	margin-left:-5px;
+	display:none;
+}
+.guilds-wrapper .guild-separator:after {
+	background:transparent;
+}
+.guilds-wrapper .guilds {
+	padding:18px 20px 85px 15px;
+}
+.guilds-wrapper .guilds .guild .guild-inner a,
+.guilds-wrapper .guilds .guild,
+.guilds-wrapper .guilds .guild .avatar-small {
+	width:40px;
+	height:40px;
+}
+.guilds-wrapper .guilds .guild .avatar-small {
+	background-size: 40px 40px;
+}
+.guilds-wrapper .guilds .guild .guild-inner {
+	line-height:40px;
+}
+.guilds-wrapper .guilds .friends-icon {
+	width:40px;
+	height:40px;
+	background-size:25px 19px;
+}
+.guilds-wrapper .guilds .friends-icon:after {
+    width:40px;
+    height:40px;
+    background-size:80%;
+    background-position:center;
+    margin-top:-2px;
+}
+.guilds-wrapper .guilds .guild:before,
+.guilds-wrapper .guilds .guild.unread:before,
+.guilds-wrapper .guilds .guild.selected:before {
+	left:-22px;
+	transition:0.2s ease-in-out all;
+}
+.guilds-wrapper .guilds .friends-online {
+    font-size: 9px;
+    margin: 15px 0 15px -7px;
+    line-height: 20px;
+    width: 55px;
+    height: 20px;
+    border-radius: 25px;
+}
+.guilds-wrapper .guilds-error {
+	width:40px;
+	height:40px;
+	line-height:36px;
+}
+.guilds-wrapper .guilds-add:before {
+    left: 47% !important;
+    top: 24% !important;
+}
